@@ -104,7 +104,8 @@ const ValidationF: React.FC<Props> = () => {
     <>
       <section className="sec">
         <div className="main">
-          <h1>Form</h1>
+          <h3>Vlidation Form</h3>
+
           <Formik
             initialValues={formvalue}
             validationSchema={validationvalue}
